@@ -1,0 +1,680 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari&family=Rampart+One&display=swap');
+
+
+*{ 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;}
+body{ 
+ 
+ font-family: 'Manjari', sans-serif;
+
+	}
+
+main{
+	width: 100%;
+	height: 940px;	
+	margin-left: auto;
+	margin-right: auto;  
+	
+
+ }
+header{
+	width: 90%;
+	height: 50px;
+	
+	
+	
+	}
+
+section{
+	width: 100%;
+	height: 840px;
+	
+	
+	margin-left: auto;
+	margin-right: auto;
+	 font-family: 'Manjari', sans-serif;
+   
+   }
+
+footer{
+	width: 90%;
+	height: 50px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	 font-family: 'Manjari', sans-serif;
+	 
+	 background-color:  #ffffff;
+
+
+
+}  
+.navbar{
+	
+  margin: 0;
+  
+	
+    
+	
+}
+.navbar li{
+		
+display: inline-block;
+  float: center;
+  width: calc(90% / 6);
+}
+
+.navbar li	a { 
+	 margin-top: 10%;
+	 margin-left: 60%;
+	  display: block;
+  min-width: 150px;
+  height: 70px;
+  text-align: center;
+  line-height: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding-top: 30px;
+  
+	
+	}
+
+
+#nombre{ 
+	     
+	     margin-left: 5%;
+	     padding-top: 1.75%;}
+
+#nombre a{ font-size: 10pt;
+	       color: #1e272e;
+	       text-decoration:	none; 
+	       	}
+
+#redes li{
+	display: inline;
+}
+#redes li	a {
+	
+	
+	    
+	float: right;
+
+	padding: 1%;
+    
+   margin-top: -2.5%;
+   margin-right: 3px;
+
+
+	
+}
+#redes{ margin-right: 1%;
+
+	   }
+
+#fondoindex {  
+background-image: url(fotoindex.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+    }
+
+
+#fondohistoria { background-image: url( 
+	historiafondo2.png);
+    background-size: cover;
+   background-repeat: no-repeat; 
+  
+     }
+
+
+  #textohistoria {color:black;
+        font-size: 13pt;
+        
+        margin-top: 1%;
+        margin-left: 30%;
+        padding: 2%;
+
+        background-color: #F0412D; 
+	    width: 65%;
+	    } 
+
+
+#imgmanifiesto{ 
+                margin-top: -22%;
+                margin-left: 58%;}
+
+
+ #textomanifiesto {color:black;
+        font-size: 12pt;
+       
+        margin-top: 20%;
+        margin-left: 25%;
+        padding: 0.5%;
+        background-color: white; 
+	    width: 30%;
+	    } 
+
+#footercontacto { margin-top: 50%; }
+#fondocontacto{ background-image: url( 
+	fondocontacto10.png);
+    background-size: cover;
+   background-repeat: no-repeat;  }
+
+
+#titulocontacto{ color:black;
+        font-size: 10pt;
+        
+        margin-top: -8%;
+        margin-left: 10%;
+        padding: 0.5%;
+        background-color: white; 
+	    width: 30%; }
+
+
+#textcontacto{ color:black;
+        font-size: 10pt;
+        
+        margin-top: -8%;
+        margin-left: 20%;
+        padding: 0.5%;
+        background-color: white; 
+	    width: 30%; }
+
+form{
+    background-color: #F0412D;
+    width: 60%;
+
+ text-align: center;
+    margin-left: 18%;
+    margin-top: 2%;
+    
+    float: center;
+    padding: 35px;
+     font-family: 'Rubik', sans-serif;
+
+}
+
+.cajas{
+    width: 90%;
+}
+
+.boton{
+    width: 80px;
+    height: 30px;
+    color: black;
+    background-color: #78D3D8;
+     font-family: 'Rubik', sans-serif;
+
+   
+}
+
+
+
+
+#textoimgcontacto {color:black;
+        font-size: 13pt;
+        
+        margin-top: 1%;
+        margin-left: 28%;
+        padding: 1%;
+
+        background-color: white; 
+	    width: 39.5%;
+	    } 
+
+#imgcontacto{ margin-left: 28%;
+	          margin-top: 4%;
+              }
+
+
+
+
+#footergaleria{ margin-top: 50%;
+}
+ 
+#imggaleria1 { margin-left: 13%;
+	          margin-top: 5%;
+              }
+#textogal1 {color:black;
+        font-size: 15pt;
+        
+        margin-top: 1%;
+        margin-left: 13%;
+        padding: 1%;
+        text-decoration: none;
+        background-color: #FBBE25; 
+	    width: 20%;
+	    } 
+
+#imggaleria2 { margin-left: 55%;
+	          margin-top: -33%;
+              }
+#textogal2 {color:black;
+        font-size: 15pt;
+        
+        margin-top: 1%;
+        margin-left: 55%;
+        padding: 1%;
+
+        background-color: #FBBE25; 
+	    width: 20%;
+	    text-decoration: none;
+	    } 
+
+#imggaleria3 { margin-left: 13%;
+	          margin-top:5%;
+              }
+#textogal3 {color:black;
+        font-size: 15pt;
+        
+        margin-top: 1%;
+        margin-left: 13%;
+        padding: 1%;
+        text-decoration: none;
+        background-color: #FBBE25; 
+	    width: 20%;
+	    } 
+
+#imggaleria4 { margin-left: 55%;
+	          margin-top: -32%;
+              }
+#textogal4 {color:black;
+        font-size: 15pt;
+        
+        margin-top: 1%;
+        margin-left: 55%;
+        padding: 1%;
+
+        background-color: #FBBE25; 
+	    width: 20%;
+	    text-decoration: none;
+	    } 
+
+#imggaleria5{ margin-left: 13%;
+	          margin-top: 3%;
+              }
+#textogal5 {color:black;
+        font-size: 15pt;
+        
+        margin-top: 1%;
+        margin-left: 13%;
+        padding: 1%;
+        text-decoration: none;
+        background-color: #FBBE25; 
+	    width: 20%;
+	    } 
+
+#imggaleria6 { margin-left: 55%;
+	          margin-top: -30%;
+              }
+#textogal6{color:black;
+        font-size: 15pt;
+        
+        margin-top: 1%;
+        margin-left: 55%;
+        padding: 1%;
+
+        background-color: #FBBE25; 
+	    width: 20%;
+	    text-decoration: none;
+	    } 
+
+#fondogaleria{ background-image: url( 
+	fondogaleriaa.png);
+    background-size: cover;
+   background-repeat: no-repeat;  }
+
+
+#fondoexp{ background-image: url( 
+	fondoexpo.png);
+    background-size: cover;
+   background-repeat: no-repeat;  }
+
+#fondodali{ background-image: url( 
+	fondodali.png);
+    background-size: cover;
+   background-repeat: no-repeat;  }
+#fondoernst{ background-image: url( 
+	fondoernst.png);
+    background-size: cover;
+   background-repeat: no-repeat;  }
+   #fondomiro{ background-image: url( 
+	fondomiro.png);
+    background-size: cover;
+   background-repeat: no-repeat;  }
+    #fondomagri{ background-image: url( 
+	fondomagri.png);
+    background-size: cover;
+   background-repeat: no-repeat;  }
+
+#footerexpo{ margin-top: 72%; }
+
+#imgexp1 { margin-left: 13%;
+	          margin-top: 1%;
+              }
+#textoexp1 {color:black;
+        font-size: 15pt;
+        
+        margin-top: 1%;
+        margin-left: 13%;
+        padding: 1%;
+        text-decoration: none;
+        background-color: #F0412D; 
+	    width: 35%;
+	    } 
+
+#imgexp2 { margin-left: 55%;
+	          margin-top: -37%;
+              }
+#textoexp2 {color:black;
+        font-size: 15pt;
+        
+        margin-top: 1%;
+        margin-left: 55%;
+        padding: 1%;
+
+        background-color:#F0412D; 
+	    width: 20%;
+	    text-decoration: none;
+	    } 
+
+#imgexp3 { margin-left: 13%;
+	          margin-top: 7%;
+              }
+#textoexp3 {color:black;
+        font-size: 15pt;
+        
+        margin-top: 1%;
+        margin-left: 13%;
+        padding: 1%;
+        text-decoration: none;
+        background-color: #F0412D; 
+	    width: 20%;
+	    } 
+
+#imgexp4 { margin-left: 55%;
+	          margin-top: -33%;
+              }
+#textoexp4 {color:black;
+        font-size: 15pt;
+        
+        margin-top: 2%;
+        margin-left: 55%;
+        padding: 1%;
+
+        background-color: #F0412D; 
+	    width: 30%;
+	    text-decoration: none;
+	    } 
+
+#imgexp5{ margin-left: 13%;
+	          margin-top: 3%;
+              }
+#textoexp5 {color:black;
+        font-size: 15pt;
+        
+        margin-top: 1%;
+        margin-left: 13%;
+        padding: 1%;
+        text-decoration: none;
+        background-color: #F0412D; 
+	    width: 30%;
+	    } 
+
+#imgexp6 { margin-left: 55%;
+	          margin-top: -26%;
+              }
+#textoexp6{color:black;
+        font-size: 15pt;
+        
+        margin-top: 1%;
+        margin-left: 55%;
+        padding: 1%;
+
+        background-color: #F0412D; 
+	    width: 30%;
+	    text-decoration: none;
+	    } 
+
+
+
+
+	
+			
+		
+			ul, ol {
+				list-style:none;
+			}
+			
+			.navbar > li {
+				float:left;
+			}
+			
+			.navbar li a {
+				background-color: white;
+				color:black;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+
+			}
+			
+			.navbar li a:hover {
+				background-color:#434343;
+			}
+			
+			.navbar li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.navbar li:hover > ul {
+				display:block;
+
+			}
+			
+			.navbar li ul li {
+				position:relative;
+				float: left;
+				width: calc(100% / 4);
+
+
+			}
+			
+#titulodali{ color:black;
+        font-size: 25pt;
+        padding: 1.5%;
+        background-color: #FBBE25; 
+	    width: 25%; 
+	    margin-top: 4%;
+	    margin-left: 35%;
+	     text-align: center;}
+
+#textodali{
+    background-color: #F0412D;
+    width: 50%;
+
+
+    margin-left: 43%;
+    margin-top: 3%;
+    
+    float: center;
+    padding: 40px;
+    
+
+}
+
+#imgdali { margin-left: 10%;
+	          margin-top: -48%;
+              }
+
+#tituloernst{ color:black;
+        font-size: 25pt;
+        padding: 1.5%;
+        background-color: #78D3D8; 
+	    width: 25%; 
+	    margin-top: 1%;
+	    margin-left: 35%;
+	     text-align: center;}
+
+#textoernst{
+    background-color: #F0412D;
+    width: 40%;
+
+
+    margin-left: 50%;
+    margin-top: 3%;
+    
+    float: center;
+    padding: 40px;
+    
+
+}
+
+#imgernst { margin-left: 50%;
+	          margin-top:  -1%;
+              }
+
+#imgernst1 { margin-left: 9%;
+	          margin-top: -52.5%;
+	          
+              }
+
+#titulomiro{ color:black;
+        font-size: 25pt;
+        padding: 1.5%;
+        background-color: #FBBE25; 
+	    width: 25%; 
+	    margin-top: 5%;
+	    margin-left: 35%;
+	     text-align: center;}
+
+#textomiro{
+    background-color: #F0412D;
+    width: 40%;
+
+
+    margin-left: 50%;
+    margin-top: 3%;
+    
+    float: center;
+    padding: 40px;
+    
+
+}
+
+#imgmiro { margin-left: 10%;
+	          margin-top: -41%;
+              }
+
+
+#titulomagri{ color:black;
+        font-size: 25pt;
+        padding: 1.5%;
+        background-color: #FBBE25; 
+	    width: 25%; 
+	    margin-top: 1%;
+	    margin-left: 35%;
+	     text-align: center;}
+
+#textomagri{
+    background-color: #F0412D;
+    width: 40%;
+
+
+    margin-left: 50%;
+    margin-top: 1%;
+    
+    float: center;
+    padding: 40px;
+    
+
+}
+
+#imgmagri { margin-left: 10%;
+	          margin-top: -54%;
+              }
+
+#cajabuscador { margin-left: 70%;
+	background-color: white;
+    width: 25%;
+
+ 
+    margin-left: 70%;
+    margin-top: 5%;
+    
+
+    padding:10px; 
+     font-family: 'Rubik', sans-serif;
+                   }
+
+   #titulogaleria{ color:black;
+        font-size: 25pt;
+        padding: 1.5%;
+        background-color: #FBBE25; 
+	    width: 20%; 
+	    margin-top: -4%;
+	    margin-left: 40%;
+	     text-align: center;}
+
+
+ #tituloexp{ color: white;
+        font-size: 25pt;
+        padding: 1.5%;
+        background-color: #010024; 
+	    width: 25%; 
+	    margin-top: -4%;
+	    margin-left: 38%;
+	     text-align: center;}
+
+ #titulohistoria{ color: black;
+        font-size: 25pt;
+        padding: 1.5%;
+        background-color: #78D3D8; 
+	    width: 25%; 
+	    margin-top: -3%;
+	    margin-left: 38%;
+	     text-align: center;}
+
+
+iframe{ margin-left: 15%; 
+        margin-top: 3%;}
+
+#textovideoyoutube {color:black;
+        font-size: 13pt;
+        
+        margin-top: -10%;
+        margin-left: 67%;
+        padding: 1%;
+
+        background-color: white; 
+	    width: 25%;
+	    } 
+#textoindex {color:black;
+        font-size: 13pt;
+        
+        margin-top: 40%;
+        margin-left: 30%;
+        padding: 1%;
+
+        background-color: white; 
+	    width: 50%;
+	    } 
+#boton1{ text-decoration: none;
+	    color:black;
+        font-size: 13pt;
+        text-align: center;
+        margin-top: 3%;
+        margin-left: 40%;
+        padding: 1%;
+        box-shadow: inset 0 -3px 0 0 #bdb;
+        background-color: #78D3D8 ; 
+	    width: 25%;
+	    } 
+
+a{ text-decoration: none;
+   color:black; } 
